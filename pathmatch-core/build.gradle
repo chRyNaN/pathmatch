@@ -1,0 +1,64 @@
+import com.chrynan.pathmatch.buildSrc.LibraryConstants
+
+apply plugin: "kotlin-multiplatform"
+
+group LibraryConstants.group
+version LibraryConstants.versionName
+
+kotlin {
+    targets {
+        jvm()
+        js()
+        ios()
+    }
+    sourceSets {
+        commonMain {
+            dependencies {
+                implementation "org.jetbrains.kotlin:kotlin-stdlib-common"
+            }
+        }
+        commonTest {
+            dependencies {
+                implementation "org.jetbrains.kotlin:kotlin-test-common"
+                implementation "org.jetbrains.kotlin:kotlin-test-annotations-common"
+            }
+        }
+        jvmTest {
+            dependencies {
+                implementation "org.jetbrains.kotlin:kotlin-test-junit"
+            }
+        }
+        jsTest {
+            dependencies {
+                implementation "org.jetbrains.kotlin:kotlin-test-js"
+            }
+        }
+    }
+}
+
+configurations {
+    compileClasspath
+}
+
+publishing {
+    publications {
+        kotlinMultiplatform {
+            artifactId = "pathmatch-core"
+        }
+        jvm {
+            artifactId = "pathmatch-core-jvm"
+        }
+        js {
+            artifactId = "pathmatch-core-js"
+        }
+        iosArm64 {
+            artifactId = "pathmatch-core-ios-arm64"
+        }
+        iosX64 {
+            artifactId = "pathmatch-core-ios-x64"
+        }
+        metadata {
+            artifactId = "pathmatch-core-metadata"
+        }
+    }
+}

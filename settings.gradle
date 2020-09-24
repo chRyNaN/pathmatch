@@ -1,0 +1,5 @@
+rootProject.name = "pathmatch"
+
+include ":pathmatch-core"
+
+enableFeaturePreview("GRADLE_METADATA")
