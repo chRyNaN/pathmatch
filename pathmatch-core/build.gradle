@@ -15,6 +15,11 @@ kotlin {
         ios()
     }
     sourceSets {
+        all {
+            languageSettings {
+                languageSettings.enableLanguageFeature("InlineClasses")
+            }
+        }
         commonMain {
             dependencies {
                 implementation "org.jetbrains.kotlin:kotlin-stdlib-common"

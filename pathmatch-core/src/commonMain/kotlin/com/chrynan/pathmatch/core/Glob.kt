@@ -1,4 +1,4 @@
-@file:Suppress("FunctionName")
+@file:Suppress("FunctionName", "unused")
 
 package com.chrynan.pathmatch.core
 
