@@ -1,6 +1,7 @@
 # pathmatch
 
-A simple path matching utility for Kotlin Multi-platform.
+A simple path matching utility for Kotlin Multi-platform. <br/>
+<img alt="GitHub tag (latest by date)" src="https://img.shields.io/github/v/tag/chRyNaN/pathmatch">
 
 ```kotlin
 val matches = Path("./Example.kt") matches {
@@ -61,68 +62,30 @@ glob.matches("/Example.kt")
 
 ## Building
 
-The library is provided through [Bintray](https://bintray.com/chrynan/chrynan). Checkout
-the [releases page](https://github.com/chRyNaN/pathmatcher/releases) to get the latest version.
+The library is provided through [Repsy.io](https://repsy.io). Checkout
+the [releases page](https://github.com/chRyNaN/pathmatcher/releases) to get the latest version. <br/>
+<img alt="GitHub tag (latest by date)" src="https://img.shields.io/github/v/tag/chRyNaN/pathmatch">
 
 ### Repository
 
 ```groovy
 repositories {
-    maven {
-        url = uri("https://dl.bintray.com/chrynan/chrynan")
-    }
+    maven { url = "https://repo.repsy.io/mvn/chrynan/public" }
 }
 ```
 
 ### Dependencies
 
-The library uses the new Kotlin 1.4.0 setup, so you can simply specify the common dependency for the `commonMain` source
-set:
-
-```groovy
-commonMain {
-    dependencies {
-        implementation "com.chrynan.pathmatcher:pathmatcher-core:$VERSION"
-    }
-}
-```
-
-If you need dependencies for specific targets, they are listed below:
-
-#### Kotlin Common:
-
 ```groovy
 implementation "com.chrynan.pathmatcher:pathmatcher-core:$VERSION"
 ```
 
-#### Kotlin JVM:
-
-```groovy
-implementation "com.chrynan.pathmatcher:pathmatcher-core-jvm:$VERSION"
-```
-
-#### Kotlin JS:
-
-```groovy
-implementation "com.chrynan.pathmatcher:pathmatcher-core-js:$VERSION"
-```
-
-#### Kotlin iOS ARM64:
-
-```groovy
-implementation "com.chrynan.pathmatcher:pathmatcher-core-ios-arm64:$VERSION"
-```
-
-#### Kotlin iOS x64:
-
-```groovy
-implementation "com.chrynan.pathmatcher:pathmatcher-core-ios-x64:$VERSION"
-```
+## Documentation
 
 ## License
 
 ```
-Copyright 2020 chRyNaN
+Copyright 2021 chRyNaN
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
