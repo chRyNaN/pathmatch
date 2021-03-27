@@ -82,6 +82,9 @@ implementation "com.chrynan.pathmatcher:pathmatcher-core:$VERSION"
 
 ## Documentation
 
+More detailed documentation is available in the [docs](docs) folder. The entry point to the documentation can be
+found [here](docs/index.md).
+
 ## License
 
 ```

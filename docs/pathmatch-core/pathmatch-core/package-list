@@ -1,0 +1,26 @@
+$dokka.format:gfm-v1
+$dokka.linkExtension:md
+$dokka.location:com.chrynan.pathmatch.core////PointingToDeclaration/pathmatch-core/com.chrynan.pathmatch.core/index.md
+$dokka.location:com.chrynan.pathmatch.core//Glob/#kotlin.String#kotlin.collections.Set[kotlin.text.RegexOption]/PointingToDeclaration/pathmatch-core/com.chrynan.pathmatch.core/-glob.md
+$dokka.location:com.chrynan.pathmatch.core//Glob/#kotlin.String#kotlin.text.RegexOption/PointingToDeclaration/pathmatch-core/com.chrynan.pathmatch.core/-glob.md
+$dokka.location:com.chrynan.pathmatch.core//Glob/#kotlin.String/PointingToDeclaration/pathmatch-core/com.chrynan.pathmatch.core/-glob.md
+$dokka.location:com.chrynan.pathmatch.core//PathMatcher/#kotlin.String/PointingToDeclaration/pathmatch-core/com.chrynan.pathmatch.core/-path-matcher.md
+$dokka.location:com.chrynan.pathmatch.core//matchResult/com.chrynan.pathmatch.core.Path#kotlin.Function1[com.chrynan.pathmatch.core.PathMatcher,TypeParam(bounds=[kotlin.Any?])]/PointingToDeclaration/pathmatch-core/com.chrynan.pathmatch.core/match-result.md
+$dokka.location:com.chrynan.pathmatch.core//matches/com.chrynan.pathmatch.core.Path#kotlin.Function1[com.chrynan.pathmatch.core.PathMatcher,kotlin.Boolean]/PointingToDeclaration/pathmatch-core/com.chrynan.pathmatch.core/matches.md
+$dokka.location:com.chrynan.pathmatch.core//matchesExactly/com.chrynan.pathmatch.core.PathMatcher#kotlin.String/PointingToDeclaration/pathmatch-core/com.chrynan.pathmatch.core/matches-exactly.md
+$dokka.location:com.chrynan.pathmatch.core//matchesGlob/com.chrynan.pathmatch.core.PathMatcher#kotlin.String/PointingToDeclaration/pathmatch-core/com.chrynan.pathmatch.core/matches-glob.md
+$dokka.location:com.chrynan.pathmatch.core//matchesRegex/com.chrynan.pathmatch.core.PathMatcher#kotlin.String/PointingToDeclaration/pathmatch-core/com.chrynan.pathmatch.core/matches-regex.md
+$dokka.location:com.chrynan.pathmatch.core//pathMatchResult/#kotlin.String#kotlin.Function1[com.chrynan.pathmatch.core.PathMatcher,TypeParam(bounds=[kotlin.Any?])]/PointingToDeclaration/pathmatch-core/com.chrynan.pathmatch.core/path-match-result.md
+$dokka.location:com.chrynan.pathmatch.core//pathMatches/#kotlin.String#kotlin.Function1[com.chrynan.pathmatch.core.PathMatcher,kotlin.Boolean]/PointingToDeclaration/pathmatch-core/com.chrynan.pathmatch.core/path-matches.md
+$dokka.location:com.chrynan.pathmatch.core/Matcher///PointingToDeclaration/pathmatch-core/com.chrynan.pathmatch.core/-matcher/index.md
+$dokka.location:com.chrynan.pathmatch.core/Matcher/matches/#kotlin.String#kotlin.String/PointingToDeclaration/pathmatch-core/com.chrynan.pathmatch.core/-matcher/matches.md
+$dokka.location:com.chrynan.pathmatch.core/Path///PointingToDeclaration/pathmatch-core/com.chrynan.pathmatch.core/-path/index.md
+$dokka.location:com.chrynan.pathmatch.core/Path/Path/#kotlin.String/PointingToDeclaration/pathmatch-core/com.chrynan.pathmatch.core/-path/-path.md
+$dokka.location:com.chrynan.pathmatch.core/Path/value/#/PointingToDeclaration/pathmatch-core/com.chrynan.pathmatch.core/-path/value.md
+$dokka.location:com.chrynan.pathmatch.core/PathMatcher///PointingToDeclaration/pathmatch-core/com.chrynan.pathmatch.core/-path-matcher/index.md
+$dokka.location:com.chrynan.pathmatch.core/PathMatcher/exact/#kotlin.String/PointingToDeclaration/pathmatch-core/com.chrynan.pathmatch.core/-path-matcher/exact.md
+$dokka.location:com.chrynan.pathmatch.core/PathMatcher/glob/#kotlin.String/PointingToDeclaration/pathmatch-core/com.chrynan.pathmatch.core/-path-matcher/glob.md
+$dokka.location:com.chrynan.pathmatch.core/PathMatcher/path/#/PointingToDeclaration/pathmatch-core/com.chrynan.pathmatch.core/-path-matcher/path.md
+$dokka.location:com.chrynan.pathmatch.core/PathMatcher/regex/#kotlin.String/PointingToDeclaration/pathmatch-core/com.chrynan.pathmatch.core/-path-matcher/regex.md
+com.chrynan.pathmatch.core
+
